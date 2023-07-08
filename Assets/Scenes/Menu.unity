@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aqui pondria mis opciones si tan solo tuviera algunas
+  m_text: Here I would put my options if only I had some
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Opciones
+  m_text: Options
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 610914337}
   - component: {fileID: 610914336}
   m_Layer: 5
-  m_Name: Opciones
+  m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -498,7 +498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -78.437004}
+  m_AnchoredPosition: {x: -23, y: -178}
   m_SizeDelta: {x: 483.6, y: 156.874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610914336
@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 704441276}
   - component: {fileID: 704441275}
   m_Layer: 5
-  m_Name: Jugar
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -644,7 +644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: 131}
+  m_AnchoredPosition: {x: 0.000062943, y: 64.672}
   m_SizeDelta: {x: 483.6, y: 156.874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &704441275
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jugar
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 917693756}
   - component: {fileID: 917693755}
   m_Layer: 5
-  m_Name: Titulo
+  m_Name: Qualification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,7 +1026,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 16, y: -47}
   m_SizeDelta: {x: 1009.886, y: 310.118}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &917693755
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 1220364657}
   - component: {fileID: 1220364656}
   m_Layer: 5
-  m_Name: MenuOpciones
+  m_Name: MenuOptions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1240,7 +1240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9, y: -9}
+  m_AnchoredPosition: {x: -9, y: -8.999939}
   m_SizeDelta: {x: 420.151, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1228732652
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: Close
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volver
+  m_text: Return
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 1609244419}
   - component: {fileID: 1609244418}
   m_Layer: 5
-  m_Name: Salir
+  m_Name: Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1512,8 +1512,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 253}
-  m_SizeDelta: {x: 483.6, y: 156.874}
+  m_AnchoredPosition: {x: 0, y: 162.17386}
+  m_SizeDelta: {x: 483.6, y: 1042.526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1609244418
 MonoBehaviour:
@@ -1622,7 +1622,7 @@ GameObject:
   - component: {fileID: 1766626609}
   - component: {fileID: 1766626608}
   m_Layer: 5
-  m_Name: Opciones
+  m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1646,7 +1646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.967, y: 100.32}
+  m_AnchoredPosition: {x: 5.967, y: 77}
   m_SizeDelta: {x: 1381.865, y: 258.911}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766626608
@@ -1756,7 +1756,7 @@ GameObject:
   - component: {fileID: 1830530708}
   - component: {fileID: 1830530707}
   m_Layer: 5
-  m_Name: Volver
+  m_Name: Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1780,8 +1780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -66, y: 159}
-  m_SizeDelta: {x: 675.67, y: 210.894}
+  m_AnchoredPosition: {x: 5.967, y: 238}
+  m_SizeDelta: {x: 675.67, y: 263.6357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830530707
 MonoBehaviour:
@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 2028085192}
   - component: {fileID: 2028085191}
   m_Layer: 5
-  m_Name: Titulo
+  m_Name: Qualification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2031,7 +2031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Opciones
+  m_text: Options
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
