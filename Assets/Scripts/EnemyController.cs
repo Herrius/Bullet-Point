@@ -20,4 +20,11 @@ public class EnemyController : MonoBehaviour
             transform.position += direction * speed * Time.deltaTime;
         }
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
