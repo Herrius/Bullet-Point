@@ -17,7 +17,7 @@ public class Puntaje : MonoBehaviour
     {
         textMesh.text = puntos.ToString("0");
     }
-    public void SumarPuntos (float puntosEntrada)
+    public void SumarPuntos(float puntosEntrada)
     {
         puntos += puntosEntrada;
     }
