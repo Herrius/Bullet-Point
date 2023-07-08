@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public float speed = 10f;
     private Transform player;
-
+    
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (collision.gameObject.CompareTag("bulletPrefab"))
         {
             Destroy(gameObject);
         }
