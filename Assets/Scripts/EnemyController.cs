@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 15f;
     private Transform player;
-    
+    private bool isDead = false;
+    private Animator animator;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -23,7 +26,16 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            Destroy(gameObject);
+            isDead = true;
+            animator.SetTrigger("Die");
+            Destroy(collision.gameObject);
+            StartCoroutine(DestroyAfterAnimation());
         }
+    }
+
+    IEnumerator DestroyAfterAnimation()
+    {
+        yield return new WaitForSeconds(0.5f); // Asume que la animación de muerte dura 1 segundo
+        Destroy(gameObject);
     }
 }
