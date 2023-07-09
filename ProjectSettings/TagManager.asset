@@ -11,7 +11,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - bullets
   - Water
   - UI
   - background
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 693410595
+    locked: 0
+  - name: Bullets
+    uniqueID: 972201721
     locked: 0
   - name: Default
     uniqueID: 0
