@@ -28,21 +28,15 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score: " + score;
-        if (score == 20)
+        float scale = score / 500.0f; // Declara y calcula la escala fuera del condicional
+        if (score >= 20)
         {
-            mainCamera.orthographicSize = 7;
-            turret.transform.localScale = new Vector2(0.3f, 0.3f);
-            bulletPrefab.transform.localScale = new Vector2(0.17f, 0.09f);
-            enemyPrefab.transform.localScale = new Vector2(0.20f, 0.20f);
+            mainCamera.orthographicSize = 5+ scale;
+            turret.transform.localScale = new Vector2(0.2f + scale, 0.2f + scale);
+            bulletPrefab.transform.localScale = new Vector2(0.15f + scale, 0.075f + scale);
+            enemyPrefab.transform.localScale = new Vector2(0.12f + scale, 0.11f + scale);
         }
 
-        if (score == 40)
-        {
-            mainCamera.orthographicSize = 9;
-            turret.transform.localScale = new Vector2(0.4f, 0.4f);
-            bulletPrefab.transform.localScale = new Vector2(0.19f, 0.11f);
-            enemyPrefab.transform.localScale = new Vector2(0.28f, 0.28f);
-        }
     }
     public void AddScore(int scoreToAdd)
     {
