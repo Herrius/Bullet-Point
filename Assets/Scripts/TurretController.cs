@@ -8,8 +8,9 @@ public class TurretController : MonoBehaviour
     public GameObject bulletPrefab;  // Prefab del proyectil
     public float bulletSpeed = 10f;  // Velocidad del proyectil
     public Transform firePoint;  // Punto desde donde se disparará el proyectil
+    public AudioSource audioSource;
+    public AudioClip fireSound;
 
-    // Actualización por cada cuadro de frame
     void Update()
     {
         RotateTurret();
@@ -33,5 +34,7 @@ public class TurretController : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Rigidbody2D>().velocity = bullet.transform.up * bulletSpeed;
+        audioSource.Play();
+        audioSource.PlayOneShot(fireSound);
     }
 }

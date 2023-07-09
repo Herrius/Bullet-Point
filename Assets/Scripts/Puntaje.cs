@@ -6,7 +6,7 @@ using TMPro;
 
 public class Puntaje : MonoBehaviour
 {
-    private float puntos;
+    private float puntos=0f;
     private TextMeshProUGUI textMesh;
 
     private void Start(){
@@ -15,7 +15,7 @@ public class Puntaje : MonoBehaviour
 
     private void Update()
     {
-        textMesh.text = puntos.ToString("0");
+       // textMesh.text = puntos.ToString("0");
     }
     public void SumarPuntos(float puntosEntrada)
     {

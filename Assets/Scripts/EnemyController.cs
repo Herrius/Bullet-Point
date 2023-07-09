@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
+
     }
     private void Update()
     {
@@ -26,6 +27,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            ScoreManager.instance.AddScore(10);
             isDead = true;
             animator.SetTrigger("Die");
             Destroy(collision.gameObject);
